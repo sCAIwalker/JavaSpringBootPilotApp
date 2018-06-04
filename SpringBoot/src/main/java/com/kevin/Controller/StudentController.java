@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Collection;
 
 @RestController
-@RequestMapping("/students");
+@RequestMapping("/students")
 public class StudentController {
 
     @Autowired
